@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <section>
+        <h1>Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition</h1>
+        <video width="100%" controls>
+            <source src="videos/supp_video.mp4" type="video/mp4" />
+        </video>
+    </section>
+
+    <section>
+        <h2>Results</h2>
+        <p>
+            Result videos below are from our distilled policy, and are sped up by 8x.
+            The exception is the 1x speed catapult video due to fast catapult motions.
+        </p>
+        <h3>Balance</h3>
+        <div>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bus_balance/ours/traj-10000-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bus_balance/ours/traj-10002-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bus_balance/ours/traj-10003-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bus_balance/ours/traj-10006-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bus_balance/ours/traj-10007-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bus_balance/ours/traj-10008-00000.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <h3>Catapult</h3>
+        <p>Closest</p>
+        <video width="200px" autoplay loop muted>
+            <source src="videos/catapult/ours/29245e0955a9a329fa1244666fe2e2e5.mp4" type="video/mp4" />
+        </video>
+        <p>Middle</p>
+        <video width="200px" autoplay loop muted>
+            <source src="videos/catapult/ours/8fc7ec01a327816a259b8e75d9b717a3.mp4" type="video/mp4" />
+        </video>
+        <p>Furthest</p>
+        <video width="200px" autoplay loop muted>
+            <source src="videos/catapult/ours/579c41d2ecd52f5f593e92331b3dbbe7.mp4" type="video/mp4" />
+        </video>
+        <p>Furthest (1x speed, front view and block view, respectively) for visualization of block trajectory</p>
+        <video width="200px" controls autoplay loop muted>
+            <source src="videos/catapult/1x_front.mp4" type="video/mp4" />
+        </video>
+        <video width="200px" controls autoplay loop muted>
+            <source src="videos/catapult/1x_block.mp4" type="video/mp4" />
+        </video>
+        <h3>Transport</h3>
+        <div>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00001-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00006-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00011-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00012-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00013-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00015-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00016-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00018-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00021-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00023-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00025-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00026-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/traj-00027-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/a5961f603bebbbe37efad6dc21ce8e4c.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/7934b34183554e42854e70fe6274c5bf.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/bin_transport/ours/0118ce3397cce8cf062255d84c987ef3.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <h3>Mailbox</h3>
+        <div>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/mailbox/ours/traj-00012-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/mailbox/ours/traj-00003-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/mailbox/ours/traj-00004-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/mailbox/ours/traj-00013-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/mailbox/ours/traj-00006-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/mailbox/ours/traj-00014-00000.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <h3>Drawer</h3>
+        <div>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00001-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00002-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00004-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00005-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00008-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00011-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00022-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00034-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00037-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00042-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00045-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00049-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00051-00000.mp4" type="video/mp4" />
+            </video>
+
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00052-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00057-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00063-00000.mp4" type="video/mp4" />
+            </video>
+            <video width="200px" autoplay loop muted>
+                <source src="videos/drawer/ours/traj-00069-00000.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+</body>
+
+</html>
